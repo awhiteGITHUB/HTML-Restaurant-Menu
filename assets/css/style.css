@@ -1,10 +1,15 @@
 html,
+
+
 body {
     margin: 0;
     padding: 0;
     background-color: beige;
     text-align: center;
+
+    
 }
+
 
 h1,
 h2 {
@@ -25,12 +30,14 @@ img {
 
 main {
     margin: 0 20%;
+    text-align: center;
 }
 
-nav {
+nav  {
     background-color: beige;
     padding: 10px;
 }
+
 
 nav ul {
     list-style-type: none;
@@ -53,7 +60,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 60%;
     height: auto;
     background-color: white;
 }
@@ -61,7 +68,9 @@ nav a:hover {
 #banner img {
     width: 60%;
     height: auto;
+    background-color: white;
 }
+
 
 .service {
     display: inline-block;
@@ -75,12 +84,29 @@ nav a:hover {
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid rgb(19, 18, 18);
     width: 100%;
+    height: auto;
+    text-align: center;
 }
   
 td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    font-size: 2em;
+    background-color:beige;
+
+}
+#holiday {
+    width: 100%;
+    padding: 20px;
+    background-color: yellow;
+}
+.highlight {
+    color:red;
 }
